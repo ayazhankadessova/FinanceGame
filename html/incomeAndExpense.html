@@ -121,7 +121,7 @@
 		<div class="container">
 			<button
 				id="nextButton"
-				onclick="nextButton()"
+				onclick="checkIncomeExpense()"
 				type="button"
 				class="btn btn-success"
 			>
@@ -149,73 +149,5 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
 
-		<!-- JavaScript -->
-		<script>
-			document.getElementById("nextButton").onclick = function () {
-				var score = 0;
-				//option 1
-				var vpartTimeDropdown = document.getElementById("partTimeDropdown").value;
-				var vpartTimesContainer = document.getElementById("partTimesContainer");
-				if (vpartTimeDropdown == "Expenses") {
-					vpartTimesContainer.innerHTML = "<span class='color-red'>Wrong!</span>";
-				} else {
-					vpartTimesContainer.innerHTML = "<span class='color-green'>Correct!</span>";
-					score++;
-				}
-
-				//option 2
-				var vcashPrizeDropdown =
-					document.getElementById("cashPrizeDropdown").value;
-				var cashPrizeContainer = document.getElementById("cashPrizeContainer");
-				if (vcashPrizeDropdown == "Expenses") {
-					cashPrizeContainer.innerHTML = "<span class='color-red'>Wrong!</span>";
-				} else {
-					cashPrizeContainer.innerHTML = "<span class='color-green'>Correct!</span>";
-					score++;
-				}
-
-				//option 3
-				var vFoodDropdown = document.getElementById("foodDropdown").value;
-				var foodContainer = document.getElementById("foodContainer");
-				if (vFoodDropdown == "Expenses") {
-					foodContainer.innerHTML = "<span class='color-green'>Correct!</span>";
-					score++;
-				} else {
-					foodContainer.innerHTML = "<span class='color-red'>Wrong!</span>";
-				}
-
-				//option 4
-				var vskinCareDropdown =
-					document.getElementById("skinCareDropdown").value;
-				var skinCareContainer = document.getElementById("skinCareContainer");
-				if (vskinCareDropdown == "Expenses") {
-					skinCareContainer.innerHTML = "<span class='color-green'>Correct!</span>";
-					score++;
-				} else {
-					skinCareContainer.innerHTML = "<span class='color-red'>Wrong!</span>";
-				}
-
-				//option 5
-				var vMovieDropdown = document.getElementById("MovieDropdown").value;
-				var MovieContainer = document.getElementById("MovieContainer");
-				if (vMovieDropdown == "Expenses") {
-					MovieContainer.innerHTML = "<span class='color-green'>Correct!</span>";
-					score++;
-				} else {
-					MovieContainer.innerHTML = "<span class='color-red'>Wrong!</span>";
-				}
-				//option 6
-				var v = document.getElementById("giftDropdown").value;
-				var giftCT = document.getElementById("giftContainer");
-				if (v == "Expenses") {
-					giftCT.innerHTML = "<span class='color-green'>Correct!</span>";
-					score++;
-				} else {
-					giftCT.innerHTML = "<span class='color-red'>Wrong!</span>";
-				}
-
-				document.getElementById("total-score").innerHTML = "Score: " + score + "/6";
-			};
-		</script>
 	</body>
 </html>
