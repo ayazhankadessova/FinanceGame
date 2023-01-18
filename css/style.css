@@ -1,0 +1,42 @@
+body {
+	background-color: #fffcf9;
+}
+
+.container {
+	padding: 8px;
+}
+
+.btn-success {
+	background-color: #487054;
+	color: white;
+}
+.col-sm-6 {
+	padding-top: 16px;
+}
+.card {
+	padding: 8px;
+	margin-bottom: 16px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.box {
+	display: flex;
+	flex: 1 0 21%;
+	flex-flow: wrap;
+	margin: 5px;
+	height: 100px;
+}
+
+.img {
+	width: 50%;
+	margin: auto;
+	display: block;
+  }
+
+.color-green{
+    color: #008000;
+}
+
+.color-red{
+    color: #F00;
+}
