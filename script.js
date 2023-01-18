@@ -133,6 +133,12 @@ function checkIncomeExpense() {
 		giftCT.innerHTML = "<span class='color-red'>Wrong!</span>";
 	}
 
-	document.getElementById("total-score").innerHTML = "Score: " + score + "/6";
+	if (score == 6) {
+		document.getElementById("total-score").innerHTML = "Score: " + score + "/6! You aced it!";
+	} else if (score > 4 && score <6) {
+		document.getElementById("total-score").innerHTML = "Score: " + score + "/6! Not bad, but revison may help!";
+	} else {
+		document.getElementById("total-score").innerHTML = "Score: " + score + "/6! Try one more time.";
+	}
 	return score;
 };
