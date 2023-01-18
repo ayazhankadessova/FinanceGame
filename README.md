@@ -19,28 +19,30 @@ We are proud of how well we were able to collaborate by having several meeting t
 
 ## Future plans
 
-- Add videos & recording.
+#### • Add videos & recording.
 
-#### Some people like learning through reading, but some may prefer videos. In the future, we will make use of different contents to make it more accessible for different learning needs.
+Some people like learning through reading, but some may prefer videos. In the future, we will make use of different contents to make it more accessible for different learning needs.
 
-- Add translation
-#### to Chinese, etc.
+#### • Add translation
+to Chinese, etc.
 
-- Q and A section
-#### Here, people can ask experts questions about personal finance, starting from what is MPF and what documents are needed to start buying stocks
+####  • Q and A section
+Here, people can ask experts questions about personal finance, starting from what is MPF and what documents are needed to start buying stocks
 
-- Sharing
-#### We also want to have a forum where peers can share useful links or just chat for community building.
+#### • Sharing
+We also want to have a forum where peers can share useful links or just chat for community building.
 
-- Leaderboard 
-#### To motivate people to learn more and give prizes.
+#### • Leaderboard 
 
-- Events
-#### Here, we will share events happening in different district, such as Fintech Forums or workshops that people can attend and learn more.
+To motivate people to learn more and give prizes.
 
-- More stories
-#### Although we covered personal finance, we also want to focus of financing as a couple/family/helping elderly. 
+#### • Events
 
-- Feedback section
-#### We would love to hear feedback!
+Here, we will share events happening in different district, such as Fintech Forums or workshops that people can attend and learn more.
+
+#### • More stories
+Although we covered personal finance, we also want to focus of financing as a couple/family/helping elderly. 
+
+#### • Feedback section
+ We would love to hear feedback!
 
