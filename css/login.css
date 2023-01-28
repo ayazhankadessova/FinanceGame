@@ -6,12 +6,15 @@
 	font-family: 'Poppins', sans-serif;
 	box-sizing: border-box;
 }
+
+/* https://cssgradient.io */
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,249,148,0.335171568627451) 35%, rgba(0,212,255,1) 100%), url("background/hkbu.png");
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,249,148,0.335171568627451) 35%, rgba(255,246,0,0.48923319327731096) 100%), url("background/about_hkbu_rpg.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
 
