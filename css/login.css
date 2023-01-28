@@ -16,5 +16,18 @@
     background-size: cover;
     position: relative;
 }
+/* 1. Form */
+/* When you need something to be positioned in an very specific spot you would use absolute positioning. For instance you may want to have an image with an overlapping caption that always sits at the top of the picture (say 20px from the top). */
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
 
 
