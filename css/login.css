@@ -29,5 +29,24 @@
     padding: 50px 60px 70px;
     text-align: center;
 }
+/* Form title */
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+/* Insert underline after each h1 in form boxes */
+.form-box h1::after{
+    content: '';
+    width:30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
