@@ -41,12 +41,26 @@
     content: '';
     width:30px;
     height: 4px;
-    border-radius: 3px;
+    border-radius: 25px;
     background: #3c00a0;
     position: absolute;
     bottom: -12px;
     left: 50%;
     transform: translateX(-50%);
+}
+.input-field{
+    background: rgb(234, 234, 234);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    background: transparent;
+    border:0;
+    outline: 0;
+    padding: 18px 15px;
 }
 
 
