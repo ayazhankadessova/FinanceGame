@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <title>YOLO - You Only Live Once!</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Font Awesome -->
+        <!-- https://fontawesome.com/icons/arrow-right?s=solid&f=classic -->
+        <script src="https://kit.fontawesome.com/eecf2e68e4.js" crossorigin="anonymous"></script>        <!-- make the webpage responsive -->
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body onload='document.form1.text1.focus()'>
+
+    <!-- 1. Navigation -->
+
+    <section class = "header">
+        <!-- container adds some space -->
+        <div class = "container-fluid">
+            <!-- Large Navigation Bar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/YOGO.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Text align right, items align right w ms auto -->
+                    <ul class="navbar-nav ms-auto text-end">
+                      <li class="nav-item">
+
+<!-- :active is a CSS pseudo-class. It specifies and selects an element based on a state—the active state—and is used to apply styles to an element when it matches that state -->
+                        <a class="nav-link active-home" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+    <!-- 2. Header Section -->
+
+<!-- Rows are wrappers for columns. 
+     Every row - 12 columns.-->
+                <div class="row banner">
+                    <div class = "col-md-6">
+                        <h1>Let's Start The Magic</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <button type="button" class="btn btn-light">Join Free</button>
+                        <button type="button" class="btn btn-outline-light">Get Premium</button>                    
+                      </div>
+                    <!-- Image in the center for the right columnn -->
+                    <div class = "col-md-6 text-center">
+                        <img src="images/home-pic.png" alt="Home page" class="image-fluid">
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- 3. Service Section -->
+
+    <section>
+      <div class = "service">
+        <h2 class = "title">We provide a wide range <br> of services</h2>
+        <p class = "subtitle">Let's start ordering with YOLO to save huge money today</p>
+        <div class ="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <img src="images/Icon-1.png" alt="Service One">
+              <h6>Express Delivery</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div> 
+          </div>
+          <div class="col-md-4">
+            <div class="service-box active-service">
+              <img src="images/Icon-2.png" alt="Service One">
+              <h6>Offers for You</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div> 
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <img src="images/Icon-3.png" alt="Service One">
+              <h6>Get Connected</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Feature Section -->
+    <section class = "feature">
+      <div class = "container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img src="images/feature.png" alt="Feature">
+          </div>
+          <div class="col-md-6">
+            <h2>We always love to hear from our customers</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <!-- Add text-link -->
+            <a href="">WATCH NOW</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- 4. Explore -->
+    <section class = "explore">
+      <div class = "container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <h2>How does YOLO make life better?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <!-- Add text-link -->
+            <a href="">EXPLORE NOW</a>
+          </div>
+
+          <div class="col-md-6 text-center">
+            <img src="images/explore.png" class="rounded mx-auto d-block" alt="Feature">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Review Section -->
+    <section class = "review">
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/testimonial-1.png" alt="Test1">
+              <div class="carousel-caption">
+                <h6>Emily Swift</h6>
+                <small>CEO and Founder @ Apple</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/testimonial-2.jpg"  alt="test2">
+              <div class="carousel-caption">
+                <h6>Tom Leung</h6>
+                <small>CEO and Founder @ Nokia</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/testimonial-3.jpg"  alt="test3">
+              <div class="carousel-caption">
+                <h6>Emily Lorenze</h6>
+                <small>CEO and Founder @ Samsung</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Footer Section -->
+    <section class = "footer text-center">
+      <div class = "container">
+        <h2>Subscribe To Our Newsletter</h2>
+        <!-- Add action when php ready --> 
+        <form name = "form1">
+          <!-- class = "rounded" -->
+          <label for="email" >Enter Your Email:</label><br><br>
+          <input type="email" id="email" name="email" placeholder="your email" required>
+          <br><br>
+          <button type = "button" class="btn btn-light" onclick="validateEmail(document.form1.text)">
+              SUBSCRIBE
+          </button>
+          <!-- <br>
+          <br> -->
+          <span id="EmailResponse"></span>
+        </form>
+      </div>
+    </section>
+
+    <!-- Script to Validate email pattern-->
+
+  <script src="email-validation.js"></script> 
+
+</body>
+</html>
