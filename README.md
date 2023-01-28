@@ -46,3 +46,9 @@ Although we covered personal finance, we also want to focus of financing as a co
 #### • Feedback section
  We would love to hear feedback!
 
+
+
+
+ --------
+ 1.Form input small field
+
