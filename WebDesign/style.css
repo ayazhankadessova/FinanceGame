@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* important means that only the ! important property value is to be applied to an element and all other declarations on the element are to be ignored. */
+.header{
+    background: #6900d1;
+}
+.navbar{
+    padding-top: 20px !important;
+}
+.navbar a{
+    font-size: 14px !important;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 12px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+}
+/* make logo smaller - decrease width */
+.navbar-brand img{
+    width: 125px;
+}
+/* nav-bar */
+.fa-bars{
+    color: #fff !important;
+    font-size: 40px !important;
+}
+/* nav bar change */
+/* .navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+} */
+
+/* gets activated when home is active, it will be underlined */
+.active-home {
+    border-bottom: 2px solid #fff;
+}
+
+/* when cursor goes to items in navigation -> highlight them w white line */
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+.banner{
+    margin-top: 8%;
+    color: #fff;
+}
+
+/* add more space around title */
+.banner h1{
+    margin: 80px 0 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner img {
+    max-height: 500px;
+}
+.banner button{
+    margin-bottom: 40px;
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-light {
+    color: #000 !important; 
+}
+
+/* ----2. Service---- */
+
+/* top right bottom left */
+.service {
+    margin: 75px 25px;
+}
+
+/* margin creates spaces around */
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.subtitle{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+/* The cursor is a pointer that indicates a link.  */
+/* CSS transitions allows you to change property values smoothly, over a given duration. */
+.service-box{
+    padding: 0 45px;
+    padding-left: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .4s;
+}
+.service-box img{
+    width: 60px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.service-box h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.service-box p{
+    font-size: 14px;
+    color: #808080;
+}
+
+.fa-arrow-right{
+    font-size: 22px !important;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+/* Service in the middle is default active */
+.service-box:hover, .active-service{
+    background: #6900d1;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+/* when hovered, change text color */
+.service-box:hover p{
+    color: #fff !important;
+}
+.active-service p{
+    color: #fff !important
+}
+
+/* -----3. Feature & Explore ------ */
+/* top bottom */
+.feature,.explore{
+    margin: 200px 0;
+}
+.feature img{
+    margin-top: 120px;
+    max-width: 77%;
+    cursor: pointer;
+}
+.feature h2{
+    margin-top: 100px;
+    font-weight: bold;
+    line-height: 50px;
+}
+/* 808080 - gray */
+.feature p,.explore p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #808080;
+    font-size: 14px;
+    line-height: 18px;
+}
+/* display: block means that the element is displayed as a block, as paragraphs and headers have always been */
+.feature a,.explore a{
+    width: 170px;
+    padding: 15px 10px;
+    display: block;
+    background: #6900d1;
+    text-decoration: none !important;
+    color: #fff !important;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(0, 0, 255, .2);
+}
+.explore h2{
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.explore img{
+    margin-top: 120px;
+    max-width: 85%;
+    cursor: pointer;
+}
+/* space after bottom */
+.explore a{
+    margin-bottom: 50px;
+}
+
+/* 4. Review */
+.review{
+    margin: 100px 0;
+}
+.carousel-item img{
+    width: 150px;
+    border-radius: 50%;
+}
+.carousel-item{
+    text-align: center;
+    height: 430px;
+}
+/*  z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order. */
+.carousel-caption {
+    z-index: -1 !important; 
+    box-shadow: 0 0 15px 1px rgba(0, 0, 255, .2);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.carousel-caption h6{
+    margin-top: 55px;
+    font-weight: bold;
+    color: #000 !important;
+}
+.carousel-caption small{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+    color: #000 !important;
+}
+.carousel-caption p{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+    color: #808080 !important;
+}
+.carousel-indicators button{
+    background-color: #6900d1 !important;
+}
+
+/* Changes to be applied to carousel item and captiom
+if the browser window is 800px or less */
+
+@media only screen and (max-width: 800px) {
+    .carousel-item{
+        height: 510px;
+    }
+    .carousel-caption {
+        margin: 0 10px 50px 10px;
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
+
+/* 5. Footer */
+.footer{
+    background-color: #6900d1;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.footer h2{
+    /* text-align: center; */
+    color: white;
+    margin: 70px 0;
+}
+.footer span{
+    /* padding-top: 5px; */
+    font-weight: 800%;
+    font-size: 13px;
+    
+    /* background-color: white; */
+    /* color: white; */
+}
+
+/* Email form: line - not a box */
+.footer input{
+    width: 60%;
+    background: transparent;
+    text-align: center;
+    /* background-color: beige; */
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 8px;
+    color: white;
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+::placeholder{
+    color: #efefef;
+    font-size: 13px;
+}
+.footer label{
+    /* width: 40%;
+    box-shadow: 0 0 15px 1px white;
+    background-color: beige; */
+    color: white;
+}
+.footer button {
+    padding: 6px;
+    width: 150px;
+    margin: auto;
+    display: block;
+    color: white !important;
+    border: 1px solid white;
+    font-size: 15px;
+    background: transparent;
+}
+.footer button:hover{
+    font-weight: bold;
+    color: black !important;
+    background-color: rgba(255, 240, 0, 0.8)!important;
+    box-shadow: 0 0 5px 5px rgba(255, 252, 127, 0.5);
+}
