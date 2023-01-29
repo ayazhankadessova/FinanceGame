@@ -68,6 +68,37 @@ input{
     margin-left:15px;
     color: gray;
 }
+form p, form a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.btn-field{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Take 1s to change background */
+.btn-field button{
+    flex-basis: 48%;
+    background-color: #3c00a0;
+    color: white;
+    height: 40px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    /* transition: background-color 1s; */
+}
+.fade:hover {
+    background-color: #004369;
+  }
+/* Space between button and input */
+.input-group{
+    height: 280px;
+}
+
 
 
 
