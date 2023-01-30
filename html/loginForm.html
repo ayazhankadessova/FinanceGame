@@ -12,11 +12,11 @@
 
         <div class = "container">
             <div class = "form-box">
-                <h1>Sign Up</h1>
+                <h1 id="title">Sign Up</h1>
                 <!-- form -->
                 <form>
                     <div class="input-group">
-                        <div class="input-field">
+                        <div class="input-field" id ="nameField">
                             <i class="fas fa-users"></i>
                             <input type="text" placeholder="name">
                         </div>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="btn-field">
                         <button type="button" id="signUp">Sign Up</button>
-                        <button type="button" id ="SignIn" class="fade">Sign In</button>
+                        <button type="button" id ="signIn" class="fade">Sign In</button>
                     </div>
 
 
@@ -43,6 +43,23 @@
             </div>
            
         </div>
+
+<script>
+    // Declare buttons
+    let signUp = document.getElementById("signUp");
+    let signIn = document.getElementById("signIn");    
+    let nameField = document.getElementById("nameField");    
+    let title = document.getElementById("title");  
+    
+    // when max heigh is 0, hide it
+    // When we click sign in, remove
+    signIn.onclick = function(){
+        nameField.style.maxHeight = 0;
+
+    }
+
+
+</script>
         
     </body>
 </html>
