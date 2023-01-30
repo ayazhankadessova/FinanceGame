@@ -89,10 +89,10 @@ form p, form a{
     border: 0;
     outline: 0;
     cursor: pointer;
-    /* transition: background-color 1s; */
+    transition: background-color 1s;
 }
 .btn-field button:hover{
-    background-color: #004369;
+    background-color: RoyalBlue !important;
 }
 
 .btn-field button.fade{

@@ -1,9 +1,8 @@
 body {
 	background-color: #fffcf9;
-}
+	/* background-image: linear-gradient(90deg, rgba(255,255,255,0.5256477591036415) 20%, rgba(255,255,255,0.5228466386554622) 51%, rgba(246,246,246,0.5396533613445378) 80%), url("background/about_hkbu_rpg.jpg"); */
+	background-size: cover;
 
-.container {
-	padding: 8px;
 }
 
 .btn-success {
@@ -26,6 +25,17 @@ body {
 	margin: 5px;
 	height: 100px;
 }
+
+.body p{
+	background-color: white;
+}
+
+.btn{
+	margin-top: 15px;
+}
+.btn:hover {
+	background-color: RoyalBlue;
+  }
 
 .img {
 	width: 50%;
