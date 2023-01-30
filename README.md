@@ -1,4 +1,9 @@
 Financial Literacy Game
+
+
+------
+
+Google Doc: https://docs.google.com/document/d/1YlMIOSRhZWDVaQ9e9guHPTWVd8QXPOUQSMUTxi3S1sU/edit?usp=sharing 
 ======
 ## Inspiration
 As students, we do not have a good understanding of personal finance which is important for the real world. After some research, we learned that this is an issue for many adults because of how finance is not taught enough in schools. 
