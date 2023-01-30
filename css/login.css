@@ -52,12 +52,12 @@
 .input-field{
     background: rgb(234, 234, 234);
     margin: 15px 0;
-    border-radius: 25px;
+    border-radius: 3px;
     display: flex;
     align-items: center;
-    padding: 7px 7px;
+    /* padding: 7px 7px; */
     max-height: 65px;
-    transition: max-heigh 0.5s;
+    transition: max-height 0.5s;
     overflow: hidden;
 }
 input{

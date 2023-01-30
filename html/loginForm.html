@@ -12,7 +12,7 @@
 
         <div class = "container">
             <div class = "form-box">
-                <h1 id="title">Sign Up</h1>
+                <h1 id="">Sign Up</h1>
                 <!-- form -->
                 <form>
                     <div class="input-group">
@@ -55,7 +55,20 @@
     // When we click sign in, remove
     signIn.onclick = function(){
         nameField.style.maxHeight = 0;
+        nameField.style.visibility = "hidden";
+        title.innerHTML = "Sign In";
+        // change types
+        signUp.classList.add("disable");
+        signIn.classList.remove("disable");
+    }
 
+    signUp.onclick = function(){
+        nameField.style.maxHeight = "60px";
+        nameField.style.visibility = "hidden";
+        title.innerHTML = "Sign Up";
+        // change types
+        signUp.classList.remove("disable");
+        signIn.classList.add("disable");
     }
 
 
