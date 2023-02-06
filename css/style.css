@@ -245,6 +245,10 @@ ul {
   margin-bottom: 1rem;
 }
 
+.btn {
+  margin-top: 20px;
+}
+
 .row {
   padding-top: 20px;
 }
