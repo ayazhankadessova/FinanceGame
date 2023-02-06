@@ -1,4 +1,5 @@
-Financial Literacy Game
+#### LEarnBU: Web-based Financial Literacy Game 
+- GCAP3166: Financial Planning: a Pre-emptive Measure to Various Social Issues
 
 ======
 ## Inspiration
