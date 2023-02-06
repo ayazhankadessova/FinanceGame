@@ -1,7 +1,6 @@
 #### LEarnBU: Web-based Financial Literacy Game 
 - GCAP3166: Financial Planning: a Pre-emptive Measure to Various Social Issues
 
-======
 ## Inspiration
 As students, we do not have a good understanding of personal finance which is important for the real world. After some research, we learned that this is an issue for many adults because of how finance is not taught enough in schools. 
 
