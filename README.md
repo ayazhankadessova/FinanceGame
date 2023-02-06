@@ -1,4 +1,4 @@
-### <img src="https://media.giphy.com/media/uyCHXpgoYuf1UXU0t7/giphy.gif" width="40"> LEarnBU: Web-based Financial Literacy Game   
+### <img src="https://media.giphy.com/media/mCJBg3jWw0XIH3euLA/giphy.gif" width="40"> LEarnBU: Web-based Financial Literacy Game   
 - GCAP3166: Financial Planning: a Pre-emptive Measure to Various Social Issues
 
 ## Inspiration
