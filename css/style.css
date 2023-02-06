@@ -250,11 +250,17 @@ ul {
 }
 
 .btn {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+#signIn {
+  margin-top: 0 !important;
+  margin-bottom: 0px !important;
 }
 
 .row {
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .form-textarea {
