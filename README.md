@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  GCAP3166: Financial Planning: a Pre-emptive Measure to Various Social Issues
+  <em>GCAP3166: Financial Planning: a Pre-emptive Measure to Various Social Issues</em>
 </p>
 
 ## Inspiration
@@ -61,5 +61,6 @@ Although we covered personal finance, we also want to focus of financing as a co
 
 
  --------
- 1.Form input small field
+ Needed Changes
+ 1. Input Remaining stories
 
