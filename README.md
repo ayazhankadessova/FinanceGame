@@ -2,7 +2,9 @@
  <img src="https://media.giphy.com/media/mCJBg3jWw0XIH3euLA/giphy.gif" width="70">LEarnBU: Web-based Financial Literacy Game<img src="https://media.giphy.com/media/mCJBg3jWw0XIH3euLA/giphy.gif" width="70">
 </h2>
 
-- GCAP3166: Financial Planning: a Pre-emptive Measure to Various Social Issues
+<p align="center">
+  GCAP3166: Financial Planning: a Pre-emptive Measure to Various Social Issues
+</p>
 
 ## Inspiration
 As students, we do not have a good understanding of personal finance which is important for the real world. After some research, we learned that this is an issue for many adults because of how finance is not taught enough in schools. 
