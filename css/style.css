@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+div.container {
+  text-align: center;
+}
+
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@400;700&display=swap');
 
@@ -80,8 +84,8 @@ body {
 }
 
 p {
-  margin-bottom: 1.5rem;
-  max-width: 40em;
+  margin: 0;
+  margin-bottom: 1.38rem;
 }
 
 h1,
