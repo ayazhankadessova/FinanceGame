@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-div.container {
+/* div.container {
   text-align: center;
-}
+} */
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@400;700&display=swap');
