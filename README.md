@@ -25,9 +25,6 @@ Kahoot.
 
 There are different topics in personal finance that needs to be dealth and we decided to separate them into different stories. Moreover, we decided to add quizzer after every story to check understanding.
 
-## Accomplishments that we're proud of
-
-
 ## Future plans
 
 #### • Add videos & recording.
