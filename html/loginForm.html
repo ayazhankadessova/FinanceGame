@@ -1,83 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sign In and Sign Up Form - LEernBU</title>
-        <link rel="stylesheet" type="text/css" href="../css/login.css" />
-        <script src="https://kit.fontawesome.com/eecf2e68e4.js" crossorigin="anonymous"></script>        <!-- make the webpage responsive -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In and Sign Up Form - LEernBU</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <script
+      src="https://kit.fontawesome.com/eecf2e68e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- make the webpage responsive -->
+  </head>
 
-    </head>
-
-    <body>
-
-        <div class = "container">
-            <div class = "form-box">
-                <h1 id="title">Sign Up</h1>
-                <!-- form -->
-                <form>
-                    <div class="input-group">
-                        <div class="input-field" id ="nameField">
-                            <i class="fas fa-users"></i>
-                            <input type="text" placeholder="name">
-                        </div>
-
-                        <div class="input-field">
-                            <i class="fas fa-envelope"></i>
-                            <input type="email" placeholder="email">
-                        </div>
-
-                        <div class="input-field">
-                            <i class="fas fa-lock"></i>
-                            <input type="password" placeholder="password">
-                        </div>
-                        <!-- Add Lost password -->
-                        <p>Lost Password <a href="#">Click here!</a></p>
-                    </div>
-                
-                    <div class="btn-field">
-                        <button type="button" id="signUp">Sign Up</button>
-                        <button type="button" id ="signIn" class="fade">Sign In</button>
-                    </div>
-                    
-                </form>
-                <div class="col text-center">
-                    <button class="btn btn-outline-secondary" onclick="document.location='storyLineOptions.html'">
-                        <i class="fa fa-home"> Start</i> 
-                    </button>
-                  </div>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 id="title">Sign Up</h1>
+        <!-- form -->
+        <form>
+          <div class="input-group">
+            <div class="input-field" id="nameField">
+              <i class="fas fa-users"></i>
+              <input type="text" placeholder="name" />
             </div>
-           
+
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="email" />
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="password" />
+            </div>
+            <!-- Add Lost password -->
+            <p>Lost Password <a href="#">Click here!</a></p>
+          </div>
+
+          <div class="btn-field">
+            <button type="button" id="signUp">Sign Up</button>
+            <button type="button" id="signIn" class="fade">Sign In</button>
+          </div>
+        </form>
+        <div class="col text-center">
+          <button
+            class="btn btn-outline-secondary"
+            onclick="document.location='homePage.html'"
+          >
+            <i class="fa fa-home"> Start</i>
+          </button>
         </div>
+      </div>
+    </div>
 
-<script>
-    // Declare buttons
-    let signUp = document.getElementById("signUp");
-    let signIn = document.getElementById("signIn");    
-    let nameField = document.getElementById("nameField");    
-    let title = document.getElementById("title");  
-    
-    // when max heigh is 0, hide it
-    // When we click sign in, remove
-    signIn.onclick = function(){
-        nameField.style.maxHeight = 0;
+    <script>
+      // Declare buttons
+      let signUp = document.getElementById('signUp')
+      let signIn = document.getElementById('signIn')
+      let nameField = document.getElementById('nameField')
+      let title = document.getElementById('title')
+
+      // when max heigh is 0, hide it
+      // When we click sign in, remove
+      signIn.onclick = function () {
+        nameField.style.maxHeight = 0
         // nameField.style.visibility = "hidden";
-        title.innerHTML = "Sign In";
+        title.innerHTML = 'Sign In'
         // change types
-        signUp.classList.add("disable");
-        signIn.classList.remove("disable");
-    }
+        signUp.classList.add('disable')
+        signIn.classList.remove('disable')
+      }
 
-    signUp.onclick = function(){
-        nameField.style.maxHeight = "60px";
+      signUp.onclick = function () {
+        nameField.style.maxHeight = '60px'
         // nameField.style.visibility = "hidden";
-        title.innerHTML = "Sign Up";
+        title.innerHTML = 'Sign Up'
         // change types
-        signUp.classList.remove("disable");
-        signIn.classList.add("disable");
-    }
-
-
-</script>
-        
-    </body>
+        signUp.classList.remove('disable')
+        signIn.classList.add('disable')
+      }
+    </script>
+  </body>
 </html>
