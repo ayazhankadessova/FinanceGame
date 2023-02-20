@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="../script.js" type="text/javascript"></script>
+  </head>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LEarnBU</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="homePage.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/bbcnews/?hl=en"
+                >Instagram Page</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button
+              class="btn btn-outline-secondary"
+              id="signIn"
+              onclick="document.location='loginForm.html'"
+            >
+              <i class="fa fa-home"> Sign In Page</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <h2>Step 3: Lets Budget!!</h2>
+        <div class="col">
+          <img
+            src="../assets/Calculator-pana.png"
+            alt="animated character"
+            width="250"
+            height="250"
+          />
+        </div>
+        <p>
+          <b>
+            Hey there, with all the knowledge, we can finally help Yu Yan buy
+            her Disney ticket! We can do this by determining her expenses and
+            finding out if she can afford it. It's time to fill in the missing
+            blanks and hit that "calculate" button to get the answer! Are you
+            excited? I sure am! Let's help Yu Yan make her birthday dreams a
+            reality!
+          </b>
+        </p>
+      </div>
+
+      <h4><b>Envelope Method</b></h4>
+
+      <div class="container" style="float: left">
+        <img
+          src="../assets/envelop.png"
+          alt="animated character"
+          width="100"
+          height="100"
+          style="float: left"
+        />
+
+        <p>
+          An amazing way to manage your cash flow and control your spending -
+          Envelope Method! This simple and easy-to-follow system is a game
+          changer for your finances. The beauty of the Envelope Method is that
+          it allows you to allocate your money in advance, which means that you
+          have predetermined limits on how much you can spend in each category
+          per month. This ensures that you stay within your budget and avoid
+          overspending.
+        </p>
+
+        <h4><b>Learn Envelope Method from Video</b></h4>
+
+        <div class="container">
+          <iframe
+            width="420"
+            height="345"
+            src="https://www.youtube.com/embed/pe87PJEIf5g"
+          >
+          </iframe>
+        </div>
+
+        <h4><b>Let's calculate</b></h4>
+
+        <div class="col">
+          <div class="card" style="width: 19em; background-color: #f5ada3">
+            <div class="card-body">
+              <p><b>Yu Yan's current monthly finance summary</b></p>
+              <p>Total Income: 2400 HK$</p>
+              <p>Total Expenses: $2190</p>
+              <ul>
+                <li>phone bill: $60</li>
+                <li>starbucks drink+dessert: $480 ($60 X 2 per week x 4)</li>
+                <li>Dine out weekly: $240 ($60 x 4)</li>
+                <li>going out with friends: $390 ($130 x 3)</li>
+                <li>Transportation fair: $220</li>
+                <li>Shopping: $500</li>
+                <li>
+                  Film camera developing and photo printing: $300 ($100 x 3)
+                </li>
+              </ul>
+              <hr />
+              <p id="leftover">Monthly Leftover: $ 210</p>
+              <p>Price Disney Ticket Yu Yan wants: 640 hk$</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding: 8px">
+          <i class="bi bi-envelope"></i>
+          <p>
+            Yu Yan should try to buy her favorite $60 Starbucks drink and
+            dessert set
+            <input type="number" id="drinks" name="quantity" min="0" max="5" />
+            times a week.
+          </p>
+          <i class="bi bi-envelope"></i>
+          <p>
+            Yu Yan should try to spend a maximum of $
+            <input type="number" id="eatOut" name="quantity" min="0" max="60" />
+            for dining out weekly.
+          </p>
+          <p>
+            Yu Yan should try to spend a maximum of $
+            <input type="number" id="shopping" name="quantity" min="0" />
+            for shopping.
+          </p>
+
+          <p>
+            Yu Yan can spend no more than $
+            <input
+              type="number"
+              id="friends"
+              name="quantity"
+              min="0"
+              max="130"
+            />
+            weekly when going out with her friends.
+          </p>
+
+          <p>
+            Yu Yan can go to print pictures and develop film roll
+            <input type="number" id="film" name="quantity" min="0" max="50" />
+            times a week instead 3.
+          </p>
+        </div>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-success"
+          data-toggle="modal"
+          data-target="#resultModal"
+          onclick="calculate()"
+        >
+          Calculate revised expenses!
+        </button>
+
+        <br />
+        <br />
+        <br />
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="resultModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Revised Expenses</h5>
+              </div>
+              <div class="modal-body"><p id="summary"></p></div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Redo Budget
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  onclick="document.location='storyLineOptions.html'"
+                >
+                  Home
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

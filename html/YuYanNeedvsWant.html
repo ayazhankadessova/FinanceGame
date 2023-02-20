@@ -25,14 +25,55 @@
 
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
   </head>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LEarnBU</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="homePage.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/bbcnews/?hl=en"
+                >Instagram Page</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button
+              class="btn btn-outline-secondary"
+              id="signIn"
+              onclick="document.location='loginForm.html'"
+            >
+              <i class="fa fa-home"> Sign In Page</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <body>
-	<div class="col text-center">
-		<button class="btn btn-outline-secondary" onclick="document.location='storyLineOptions.html'">
-			<i class="fa fa-home"></i> Home
-		</button>
-	  </div>
-</div>
+	
     <div class="container">
       
       <h2>Step 2: Identifying Needs and Wants</h2>
@@ -46,28 +87,44 @@
         src="https://www.starlingbank.com/static/96580a2de2c57d8b2362871ab1ec5eb5/money-explained-needs-wants.jpg"
         width="500"
       />
-      <h6>Definitions</h6>
+	  <br/>
+	  <br/>
+	   <h4><b>Definitions</b></h4>
       <p>
-        <b>Need:</b> A necessity, something required, something essential for
-        life <br />
-        <b>Want:</b> A desire, something wished for, something non-essential
+        <b>What is Need? </b> <br />
+        Definition: A need is something necessary to live and function. Food, shelter, clothing. <br />
+        <b>What is Want? </b> <br />
+        Definition: A want is something that can improve your quality of life. Branded items, leisure etc.
+        <br />
+
+        <b>What is budgeting?</b> <br />
+        A budget is a plan that expresses your financial goals and how you will allocate your limited resources to achieve them.
+
+        <br />
+        Expenses can be grouped into: Inflexible Expenses, Flexible Expenses.<br />
+
+        <b>Alternative definition of budgeting</b> <br />
+        A budget is an income statement (cash flow statement) that is based on forecasted cash flows for a future time period.<br />
       </p>
-      <h4>In Real Life</h4>
+
+      <h4><b>In Real Life</b></h4>
       <p>
-        Using these definitions, "a roof over my head" is a need. So are
-        clothing, food, tools for work and medications. "A vacation" is a want,
-        and so are meals in restaurants, video games, gym memberships and
-        designer shoes. <p></p>
-		
-		Of course, one person's want may be another
-        person's need. For Samantha, who lives near a bus route, a car may be a
-        luxury, while for Sam, who doesn't have access to public transit and
-        can't cycle to work, a car may be a necessity.<p></p>
-		By learning how to differentiate between wants and needs, you can save money for retirement and emergencies, or for saving up to buy something that you really want.
+        Wow, isn't it amazing how we can distinguish between our wants and needs? By definition, a need is something essential to our survival, like having a roof over our head, proper clothing, food, work tools, and medication. On the other hand, a want is something we desire but isn't essential, like going on vacation, dining out at restaurants, playing video games, having a gym membership, or buying designer shoes. <br /> <br />
+		However, it's worth noting that what one person considers a want may be a need for another. For instance, Samantha, who lives close to a bus route, may not consider owning a car a necessity, while Sam, who lacks access to public transit and can't cycle to work, might view a car as a crucial requirement.
+		 <br /> <br />By being able to differentiate between our wants and needs and budget well, we can save money for emergencies, retirement, or for purchasing something that we genuinely desire. Isn't that fantastic?
 
       </p>
+	   <h4><b>How To Budget</b></h4>
+	  <p>
+		Note down your income and expense.<br />
+		Label them e.g., Japanese $ 60. OR MTR $7<br />
+		After one month, evaluate them.<br />
+		Can use the spending apps e.g. Spendee.<br />
+		Look at the things you can reduce, etc Eating out.<br />
+		Change to alternatives: Cook more often.
+      </p>
 
-	  <h4>Learn from Video</h4>
+	   <h4><b>Learn From Video</b></h4>
 
 	  <div class="container">
 		<iframe width="420" height="345" src="https://www.youtube.com/embed/myYnm793xBY">
@@ -76,7 +133,7 @@
 	</div>
 
 
-      <p>For Yu Yan, identify the following as needs or wants so she can cut down on her expenses to save up for a guitar:</p>
+      <p><b>Help YuYan identify the following as needs or wants so she can cut down on her expenses to save up for Disney ticket:</b></p>
       <table style="width: 75%">
 		<tr>
 			<th></th>
@@ -132,7 +189,7 @@
 			<tr>
 			  <td>
 				<div class="form-check form-check-inline">
-				  <p>A cellphone plan to call friends and family</p>
+				  <p>A phone plan to call friends and family</p>
 				</div>
 			  </td>
 		
@@ -226,7 +283,7 @@
 	<tr>
 	  <td>
 		<div class="form-check form-check-inline">
-		  <p>Bus fare to ride the bus to school</p>
+		  <p>MTR fare to reach university</p>
 		</div>
 	  </td>
   
@@ -271,7 +328,7 @@
 	<tr>
 	  <td>
 		<div class="form-check form-check-inline">
-		  <p>Going out to eat with her friends at a restaurant</p>
+		  <p>Going out to eat with her friends at fancy restaurant 4 times a week</p>
 		</div>
 	  </td>
 
@@ -367,7 +424,7 @@
   >
   
   <button
-	onclick="document.location='budgeting.html'"
+	onclick="document.location='YuYanBudgeting.html'"
 	type="button"
 	class="btn btn-primary"
   >
