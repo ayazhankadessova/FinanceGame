@@ -81,9 +81,44 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: var(--textColor);
+  padding-top: 4rem;
 }
 
-p {
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 24rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 20rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
+
+------- p {
   margin: 0;
   margin-bottom: 1.38rem;
 }
@@ -103,7 +138,6 @@ h5 {
 }
 
 h1 {
-  margin-top: 0;
   font-size: 3.052rem;
 }
 

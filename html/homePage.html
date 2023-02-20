@@ -23,24 +23,176 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
   </head>
 
-  <body>
-    <div class="container" style="text-align: center">
-      <h1>LEarnBU</h1>
-      <div>
-        <button
+  <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LEarnBU</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="homePage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/bbcnews/?hl=en">Instagram Page</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <button
           class="btn btn-outline-secondary"
           id="signIn"
           onclick="document.location='loginForm.html'"
         >
           <i class="fa fa-home"> Sign In Page</i>
         </button>
+        </div>
       </div>
+    </div>
+  </nav>
+</header>
+
+  <!--  -->
+
+  <main>
+    
+    <div class="container" style="text-align: center">
+      <br/>
       <h2>Learn to Earn, Save, Invest Better for Bright Present and Future!</h2>
       <p class="main">
-        Welcome to LEarnBU, a story-game to learn about personal finance. Pick a
-        story below to get started!
+        Welcome to LEarnBU, a story-game to learn about personal finance. Scroll for more Info!
       </p>
     </div>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h2>Visit Our Booth.</h2>
+                <p>
+                  Come one, come all! Join us outside TriAngle for a fun and interactive Kahoot game that will teach you all about personal finance.
+                  Gather your friends and compete for a chance to win exciting coupons and prizes.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Learn More</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h2>Follow us on Instagram!</h2>
+                <p>
+                  Get financially savvy and win prizes with our Instagram page! Follow us for interactive games, 
+                  expert tips, and more on personal finance. Don't miss out!
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2>Classmates' projects.</h2>
+                <p>
+                  Are you interested in learning more about personal finance and how to manage your money effectively? 
+                  Look no further than our classmates' projects! Our talented peers have been working hard to create informative 
+                  and engaging resources on topics like budgeting, saving, and investing.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container" style="text-align: center">
+        <br/>
+      <p class="main">
+        Choose a topic and start learning!
+      </p>
+    </div>
+  
     <div class="container">
       <div class="row">
         <div class="col-sm-4 d-flex align-items-stretch">
@@ -182,5 +334,6 @@
         </div>
       </div>
     </div>
-  </body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </main>
 </html>
