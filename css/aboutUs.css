@@ -4,12 +4,11 @@
 }
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@400;700&display=swap'); */
 
 html {
   font-size: 100%;
 } /*16px*/
-
 :root {
   /* colors */
   --primary-50: #e0fcff;
@@ -72,21 +71,43 @@ body {
   background: #f0f4f8;
   font-family: var(--bodyFont);
   font-weight: 400;
-  line-height: 1.75;
+  line-height: 2.5;
   color: var(--textColor);
   padding-bottom: 4rem !important;
 }
 
+.button.fa::before {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--primary-500);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  letter-spacing: var(--letterSpacing);
+  padding: 0.375rem 0.75rem;
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  /* text-transform: capitalize; */
+  display: inline-block;
+}
 /* The actual timeline (the vertical ruler) */
 .main-timeline-2::after {
   content: '';
   position: absolute;
-  width: 3px;
+  width: 4px;
   background-color: #26c6da;
   top: 10px;
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+  height: 103%;
 }
 
 /* Container around content */
@@ -151,6 +172,10 @@ body {
 /* Fix the circle for containers on the right side */
 .right-2::after {
   left: -14px;
+}
+
+img {
+  max-height: 15em;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

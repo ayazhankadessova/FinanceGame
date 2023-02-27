@@ -33,7 +33,6 @@ function calculate() {
 		Evaluate her expenses and find out where she can save!`
   }
 }
-
 function checkNeedsVsWants() {
   var score = 0
   if (document.getElementById('starbucks-want').checked) {
