@@ -148,3 +148,45 @@ function checkIncomeExpense() {
   }
   return score
 }
+
+function checkStocks() {
+  var score = 0
+  if (document.getElementById('AndrewD1-stocks').checked) {
+    document.getElementById('AndrewD1-score').innerHTML = 'Correct'
+    score++
+  } else {
+    document.getElementById('AndrewD1-score').innerHTML = 'Incorrect'
+  }
+  if (document.getElementById('AndrewD2-bonds').checked) {
+    document.getElementById('AndrewD2-score').innerHTML = 'Correct'
+    score++
+  } else {
+    document.getElementById('AndrewD2-score').innerHTML = 'Incorrect'
+  }
+  if (document.getElementById('AndrewD3-fixedDeposits').checked) {
+    document.getElementById('AndrewD3-score').innerHTML = 'Correct'
+    score++
+  } else {
+    document.getElementById('AndrewD3-score').innerHTML = 'Incorrect'
+  }
+  if (document.getElementById('AndrewD4-bonds').checked) {
+    document.getElementById('AndrewD4-score').innerHTML = 'Correct'
+    score++
+  } else {
+    document.getElementById('AndrewD4-score').innerHTML = 'Incorrect'
+  }
+  if (document.getElementById('AndrewD5-stocks').checked) {
+    document.getElementById('AndrewD5-score').innerHTML = 'Correct'
+    score++
+  } else {
+    document.getElementById('AndrewD5-score').innerHTML = 'Incorrect'
+  }
+  if (document.getElementById('AndrewD6-stocks').checked) {
+    document.getElementById('AndrewD6-score').innerHTML = 'Correct'
+    score++
+  } else {
+    document.getElementById('AndrewD6-score').innerHTML = 'Incorrect'
+  }
+  document.getElementById('total-score').innerHTML = 'Score: ' + score + '/6'
+  return score
+}
