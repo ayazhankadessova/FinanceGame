@@ -21,9 +21,14 @@ The user can choose a story to play, each with a character that is dealing with 
 Using HTML/CSS/JS in VS Code.
 Google forms.
 Kahoot.
+
 ## Challenges we ran into
 
 There are different topics in personal finance that needs to be dealth and we decided to separate them into different stories. Moreover, we decided to add quizzer after every story to check understanding.
+
+## Impact
+
+50 students improved their personal finance skills via LEarnBU game and other activities organized, such as Kahoot and games.
 
 ## Future plans
 
