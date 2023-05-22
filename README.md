@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <em>GCAP3166: Financial Planning: a Pre-emptive Measure to Various Social Issues</em>
+  Financial Planning</em>
 </p>
 
 ## Inspiration
