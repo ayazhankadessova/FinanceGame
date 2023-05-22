@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  Financial Planning</em>
+  <em>Financial Planning</em>
 </p>
 
 ## Inspiration
